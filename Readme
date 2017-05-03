@@ -1,0 +1,17 @@
+#install gemini and dependencies
+npm install gemini
+npm install selenium-standalone
+selenium-standalone install
+
+#start the webserver before you run the test
+selenium-standalone start
+
+
+#run test
+npm run test
+
+#check the report
+#./gemini/gemini-report
+
+#set the reference screens as current version if you need
+gemini update
