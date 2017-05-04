@@ -1,0 +1,6 @@
+.idea/
+*.iml
+screens/
+node-modles
+gemini-report/
+build
