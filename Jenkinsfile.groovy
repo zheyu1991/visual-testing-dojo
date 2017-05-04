@@ -13,7 +13,7 @@ pipeline {
                 sh 'npm install gemini '
                 sh 'npm install selenium-standalone'
                 sh 'selenium-standalone install'
-                sh 'open selenium-standalone start'
+                sh 'selenium-standalone start &'
             }
         }
 
